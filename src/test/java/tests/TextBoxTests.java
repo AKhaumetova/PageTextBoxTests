@@ -1,3 +1,4 @@
+package tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
@@ -25,7 +26,7 @@ public class TextBoxTests {
         $("#lastName").setValue("Ivanov");
         $("#userEmail").setValue("alex@ivanov.com");
 
-        $("#genterWrapper").$(byText("Male")).click();
+        $("#genderWrapper").$(byText("Male")).click();
 
         $("#userNumber").setValue("9998887878");
 
