@@ -74,6 +74,8 @@ public class RegistrationPage {
     }
     public RegistrationPage setSubjects(String value){
         subjectsInput.setValue(value);
+        subjectsInput.pressEnter();
+
 
         return this;
     }
@@ -112,7 +114,7 @@ public class RegistrationPage {
         return this;
     }
     public RegistrationPage setSubmitClick(String value){
-        submitClick.$(byText(value)).click();
+        submitClick.click();
 
         return this;
     }

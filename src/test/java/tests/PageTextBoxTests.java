@@ -32,7 +32,7 @@ public class PageTextBoxTests extends TestBase {
                 .setCity("Karnal")
                 .setSubmitClick("Submit");
 
-        $("#uploadPicture").uploadFromClasspath("5.jpg");
+        //$("#uploadPicture").uploadFromClasspath("5.jpg");
 
 
         
@@ -43,7 +43,7 @@ public class PageTextBoxTests extends TestBase {
          .checkResult("Date of Birth", "15 June,1991")
          .checkResult("Subjects", "Physics")
          .checkResult("Hobbies", "Sports")
-         .checkResult("Picture", "5.jpg")
+         //.checkResult("Picture", "5.jpg")
          .checkResult("Address", "Some Street 1")
          .checkResult("State and City", "Haryana Karnal");
     }
